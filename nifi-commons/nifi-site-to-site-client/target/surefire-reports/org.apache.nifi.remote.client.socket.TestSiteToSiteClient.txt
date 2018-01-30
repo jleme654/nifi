@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.nifi.remote.client.socket.TestSiteToSiteClient
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.15 sec - in org.apache.nifi.remote.client.socket.TestSiteToSiteClient

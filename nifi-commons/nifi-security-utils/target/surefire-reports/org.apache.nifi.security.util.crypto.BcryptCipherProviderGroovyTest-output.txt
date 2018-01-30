@@ -1,0 +1,98 @@
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 00000000000000000000000000000000
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: 1ee554cc0aceb7b3c1c02ae417ba7f0fc26c933db591f9b9a4ce1689080d0b4e 32
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 00000000000000000000000000000000
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: e649bb705b66ab2b3a18de04139b6cac94d46fa43f2cd3b2cd2bff83 28
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 00000000000000000000000000000000
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: ff58e9f6957214fa5e40f22dd292554d07fcc3b15572659470a196d99d5c45b1caba622993be6ca771875d3f 44
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Generated $2a$10$fVH8e28OQRj9tqiDXs1e1uxpsjN0c7II7YPKXua2NAKYvM6iQk7dq
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length -1
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 40
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 64
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 112
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 512
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Full Hash: $2a$10$gUVbkVzp79H8YaCOsCVZNuz/d759nrMKzjuviaS5/WdcKHzqngGKi
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest -      Hash:                              z/d759nrMKzjuviaS5/WdcKHzqngGKi
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest -  B64 Salt:        gUVbkVzp79H8YaCOsCVZNg
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Extracted Salt:   gUVbkVzp79H8YaCOsCVZNu
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Extracted Salt (hex): 81455b915ce9efd1fc61a08eb0255936
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest -  Expected Salt (hex): 81455b915ce9efd1fc61a08eb0255936
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - External cipher text: 3a226ba2b3c8fe559acb806620001246db289375ba8075a68573478b56a69f15 32
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Expected cipher text: 3a226ba2b3c8fe559acb806620001246db289375ba8075a68573478b56a69f15
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - [SANITY] Decrypted external cipher text and generated cipher text successfully
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - [SANITY] Salt from external: $2a$10$gUVbkVzp79H8YaCOsCVZNu
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - [SANITY] Generated hash: $2a$10$gUVbkVzp79H8YaCOsCVZNuz/d759nrMKzjuviaS5/WdcKHzqngGKi
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 9cf2e4950f846d06384e15831f272731
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: 6ecad849f4c9ef4ac1d917636d21c3c9608dc386c0caf4af790e3ca6cbe0044d 32
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: a255105440573fe036a2d8fe6452a54b
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: a0f24d6a5f85fa59b5cc31a05f9b54322110e40d4316f1a6b0195aa4 28
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: f1d1e83d5bd800acdf86ae802f707492
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: 87b87a5b98f6447c58332ed5f012e320ef881a82c18d62b16847d1fb11f05be1f376e6ab2d94163dd19d5df1 44
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Full Hash: $2a$10$gUVbkVzp79H8YaCOsCVZNuz/d759nrMKzjuviaS5/WdcKHzqngGKi
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest -      Salt: $2a$10$gUVbkVzp79H8YaCOsCVZNu
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest -      Hash:                              z/d759nrMKzjuviaS5/WdcKHzqngGKi
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Extracted Salt:   gUVbkVzp79H8YaCOsCVZNu
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Extracted Salt (hex): 81455b915ce9efd1fc61a08eb0255936
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - External cipher text: 3a226ba2b3c8fe559acb806620001246db289375ba8075a68573478b56a69f15 32
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 128
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: e98a0edefd38a4628e0719f90c2ac91051d94f1ad0fd743d3c73dd3fcbb2ce04 32
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 11 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Salt: $2a$11$nHL.lzEtk4Pxi9xP.edhHe
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Checking salt $ab$00$acbdefghijklmnopqrstuv
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Checking salt bad_salt
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Checking salt $3a$11$
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Checking salt x
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Checking salt $2a$10$
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The salt cannot be empty. To generate a salt, use BcryptCipherProvider#generateSalt()
+[main] WARN org.apache.nifi.security.util.crypto.BcryptCipherProvider - The provided work factor 4 is below the recommended minimum 12
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: 98dd3831a82356fe0e8f9dd28077fc22a111fb79a348cd31f6ae77b0bb25c961 32
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: c3e5cd622ea258b918d2092c99d2b1b293841ef6cf08f5837ef56d99 28
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Cipher text: 3dfbb31f46dbd4a25d0e743e14b4e01e76c01221835f719a868b3ebbb8f92c56b3a25179431f705e42cce81e 44
+[main] INFO org.apache.nifi.security.util.crypto.BcryptCipherProviderGroovyTest - Recovered: This is a plaintext message.

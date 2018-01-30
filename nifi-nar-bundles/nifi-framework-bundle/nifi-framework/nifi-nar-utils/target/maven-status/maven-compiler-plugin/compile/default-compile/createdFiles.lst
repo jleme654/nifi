@@ -1,0 +1,12 @@
+org\apache\nifi\util\FileUtils.class
+org\apache\nifi\nar\NarClassLoaders$InitContext.class
+org\apache\nifi\nar\NarClassLoaders.class
+org\apache\nifi\nar\NarClassLoader.class
+org\apache\nifi\nar\NarUnpacker.class
+org\apache\nifi\nar\NarClassLoaders$1.class
+org\apache\nifi\nar\SystemBundle.class
+org\apache\nifi\nar\NarUnpacker$1.class
+org\apache\nifi\nar\NarManifestEntry.class
+org\apache\nifi\nar\ExtensionMapping.class
+org\apache\nifi\nar\NarClassLoader$1.class
+org\apache\nifi\nar\NarBundleUtil.class

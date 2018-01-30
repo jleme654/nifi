@@ -1,0 +1,9 @@
+org\apache\nifi\properties\SensitivePropertyProvider.class
+org\apache\nifi\properties\ProtectedNiFiProperties.class
+org\apache\nifi\properties\AESSensitivePropertyProvider.class
+org\apache\nifi\properties\MultipleSensitivePropertyProtectionException.class
+org\apache\nifi\properties\SensitivePropertyProviderFactory.class
+org\apache\nifi\properties\StandardNiFiProperties.class
+org\apache\nifi\properties\AESSensitivePropertyProviderFactory.class
+org\apache\nifi\properties\NiFiPropertiesLoader.class
+org\apache\nifi\properties\SensitivePropertyProtectionException.class

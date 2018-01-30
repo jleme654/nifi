@@ -1,0 +1,4 @@
+[main] INFO org.apache.nifi.security.xml.XmlUtilsTest - [EXPECTED] javax.xml.bind.UnmarshalException
+ - with linked exception:
+[javax.xml.stream.XMLStreamException: ParseError at [row,col]:[3,16]
+Message: A entidade "xxe" foi referenciada, mas não declarada.]

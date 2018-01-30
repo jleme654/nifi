@@ -1,0 +1,9 @@
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\AESSensitivePropertyProvider.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\AESSensitivePropertyProviderFactory.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\StandardNiFiProperties.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\ProtectedNiFiProperties.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\SensitivePropertyProvider.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\SensitivePropertyProtectionException.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\SensitivePropertyProviderFactory.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\NiFiPropertiesLoader.java
+C:\Users\julio\eclipse-workspace_2\nifi\nifi-nar-bundles\nifi-framework-bundle\nifi-framework\nifi-properties-loader\src\main\java\org\apache\nifi\properties\MultipleSensitivePropertyProtectionException.java

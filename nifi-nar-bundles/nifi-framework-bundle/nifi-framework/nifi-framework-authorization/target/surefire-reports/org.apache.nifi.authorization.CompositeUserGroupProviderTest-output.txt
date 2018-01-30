@@ -1,0 +1,2 @@
+[main] WARN org.apache.nifi.authorization.CompositeUserGroupProvider - Multiple UserGroupProviders are claiming to provide user 'user-identity-1': [identifier[user-identifier-1], identity[user-identity-1] and org.apache.nifi.authorization.SimpleUserGroupProvider] 
+[main] WARN org.apache.nifi.authorization.CompositeUserGroupProvider - Multiple UserGroupProviders are claiming to provide user 'user-identity-1': [identifier[user-identifier-1], identity[user-identity-1] and org.apache.nifi.authorization.SimpleUserGroupProvider] 

@@ -1,0 +1,4 @@
+[main] INFO org.apache.nifi.authorization.user.NiFiUserUtilsTest - Proxied entities chain: [jdoe, proxy1.nifi.apache.org]
+[main] INFO org.apache.nifi.authorization.user.NiFiUserUtilsTest - Proxied entities chain: [, proxy1.nifi.apache.org]
+[main] INFO org.apache.nifi.authorization.user.NiFiUserUtilsTest - Proxied entities chain: [jdoe]
+[main] INFO org.apache.nifi.authorization.user.NiFiUserUtilsTest - Proxied entities chain: []

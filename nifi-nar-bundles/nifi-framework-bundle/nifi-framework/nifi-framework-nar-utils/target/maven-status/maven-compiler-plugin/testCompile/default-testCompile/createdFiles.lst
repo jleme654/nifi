@@ -1,0 +1,5 @@
+org\apache\nifi\nar\NarThreadContextClassLoaderTest.class
+org\apache\nifi\nar\NarThreadContextClassLoaderTest$WithDefaultConstructor.class
+org\apache\nifi\nar\NarUnpackerTest$1.class
+org\apache\nifi\nar\NarUnpackerTest.class
+org\apache\nifi\nar\NarThreadContextClassLoaderTest$WithPropertiesConstructor.class

@@ -1,0 +1,20 @@
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Attributes: [single:Hello World, repeating:Hello World Hello World Hello World]
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - [EXPRESSION] Replace single | ${single:replaceFirst('\w+\s\w+\b??', 'Goodbye Planet')}
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - [EXPRESSION] Replace repeating | ${repeating:replaceFirst('\w+\s\w+\b??', 'Goodbye Planet')}
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace single result: Goodbye Planet
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace repeating result: Goodbye Planet Hello World Hello World
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Attributes: [single:Hello World, repeating:Hello World Hello World Hello World]
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - [EXPRESSION] Replace single | ${single:replaceFirst('Hello World', 'Goodbye Planet')}
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - [EXPRESSION] Replace repeating | ${repeating:replaceFirst('Hello World', 'Goodbye Planet')}
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace single result: Goodbye Planet
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace repeating result: Goodbye Planet Hello World Hello World
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Attributes: [single:Hello World, repeating:Hello World Hello World Hello World]
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace single result: Hello World
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace repeating result: Hello World Hello World Hello World
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace first single result: Goodbye Planet
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace repeating result: Goodbye Planet Hello World Hello World
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Attributes: [single:Hello World, repeating:Hello World Hello World Hello World]
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - [EXPRESSION] Replace single | ${single:replace('Hello World', 'Goodbye Planet')}
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - [EXPRESSION] Replace repeating | ${repeating:replace('Hello World', 'Goodbye Planet')}
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace single result: Goodbye Planet
+[main] INFO org.apache.nifi.attribute.expression.language.QueryGroovyTest - Replace repeating result: Goodbye Planet Goodbye Planet Goodbye Planet

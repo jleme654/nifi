@@ -1,0 +1,15 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-utils
+
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-api (http://nifi.apache.org/nifi-api) org.apache.nifi:nifi-api:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

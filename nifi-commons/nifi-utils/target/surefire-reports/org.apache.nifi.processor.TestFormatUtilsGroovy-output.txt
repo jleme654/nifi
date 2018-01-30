@@ -1,0 +1,2 @@
+[main] INFO org.apache.nifi.processor.TestFormatUtilsGroovy - [CONVERTED] [7, 7, 7, 7, 7]
+[main] INFO org.apache.nifi.processor.TestFormatUtilsGroovy - [CONVERTED] [7, 7, 7, 7, 7]

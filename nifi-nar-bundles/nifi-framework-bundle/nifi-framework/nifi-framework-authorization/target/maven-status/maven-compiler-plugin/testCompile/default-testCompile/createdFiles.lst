@@ -1,0 +1,17 @@
+org\apache\nifi\authorization\CompositeUserGroupProviderTestBase.class
+org\apache\nifi\authorization\StandardManagedAuthorizerTest$2.class
+org\apache\nifi\authorization\SimpleUserGroupProvider.class
+org\apache\nifi\authorization\SimpleConfigurableUserGroupProvider.class
+org\apache\nifi\authorization\CompositeUserGroupProviderTest$1.class
+org\apache\nifi\authorization\CompositeConfigurableUserGroupProviderTest.class
+org\apache\nifi\authorization\StandardManagedAuthorizerTest$1.class
+org\apache\nifi\authorization\resource\DataAuthorizableTest$3.class
+org\apache\nifi\authorization\StandardManagedAuthorizerTest.class
+org\apache\nifi\authorization\SimpleUserGroupProvider$1.class
+org\apache\nifi\authorization\StandardManagedAuthorizerTest$5.class
+org\apache\nifi\authorization\resource\DataAuthorizableTest.class
+org\apache\nifi\authorization\StandardManagedAuthorizerTest$4.class
+org\apache\nifi\authorization\CompositeUserGroupProviderTest.class
+org\apache\nifi\authorization\StandardManagedAuthorizerTest$3.class
+org\apache\nifi\authorization\resource\DataAuthorizableTest$2.class
+org\apache\nifi\authorization\resource\DataAuthorizableTest$1.class

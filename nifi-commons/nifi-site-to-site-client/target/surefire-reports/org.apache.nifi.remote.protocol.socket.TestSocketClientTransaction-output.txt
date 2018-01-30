@@ -1,0 +1,40 @@
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Received Confirm Transaction: 3359812065 from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_CONFIRMED] Received Transaction Finished: null from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Peer[url=] Indicates that data is available
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should finish
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Sending CONFIRM_TRANSACTION Response Code to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Received Confirm Transaction: Checksum has been verified at server. from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_CONFIRMED] Sending TRANSACTION_FINISHED to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Received Confirm Transaction: 2946083981 from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_CONFIRMED] Received Transaction Finished: null from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Received Confirm Transaction: Different checksum from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - Peer[url=] No data available from null
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Peer[url=] Indicates that data is available
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should finish
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Sending CONFIRM_TRANSACTION Response Code to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Received Bad Checksum: null from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Peer[url=] Indicates that data is available
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should finish
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Sending CONFIRM_TRANSACTION Response Code to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Received Confirm Transaction: Checksum has been verified at server. from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_CONFIRMED] Sending TRANSACTION_FINISHED to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] TRACE org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Received Confirm Transaction: 3359812065 from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.socket.SocketClientTransaction - SocketClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_CONFIRMED] Received Transaction Finished But Destination is Full: null from Peer[url=]

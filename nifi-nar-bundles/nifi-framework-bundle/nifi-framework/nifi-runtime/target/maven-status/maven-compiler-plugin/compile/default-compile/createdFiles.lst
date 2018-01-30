@@ -1,0 +1,16 @@
+org\apache\nifi\BootstrapListener$2.class
+org\apache\nifi\BootstrapListener$Listener.class
+org\apache\nifi\EmbeddedNiFi.class
+org\apache\nifi\BootstrapListener$BootstrapRequest.class
+org\apache\nifi\NiFi$5.class
+org\apache\nifi\NiFi$3.class
+org\apache\nifi\BootstrapListener.class
+org\apache\nifi\util\LimitingInputStream.class
+org\apache\nifi\NiFiServer.class
+org\apache\nifi\NiFi$2.class
+org\apache\nifi\BootstrapListener$Listener$1.class
+org\apache\nifi\NiFi$1.class
+org\apache\nifi\NiFi.class
+org\apache\nifi\NiFi$4.class
+org\apache\nifi\BootstrapListener$1.class
+org\apache\nifi\BootstrapListener$BootstrapRequest$RequestType.class

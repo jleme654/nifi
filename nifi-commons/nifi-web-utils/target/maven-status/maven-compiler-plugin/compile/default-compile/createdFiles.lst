@@ -1,0 +1,4 @@
+org\apache\nifi\web\util\ObjectMapperResolver.class
+org\apache\nifi\web\util\ClientUtils.class
+org\apache\nifi\web\util\WebUtils$1.class
+org\apache\nifi\web\util\WebUtils.class

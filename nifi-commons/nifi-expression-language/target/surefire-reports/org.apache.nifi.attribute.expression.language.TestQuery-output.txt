@@ -1,0 +1,23 @@
+${xx:replace( "'hi'", '\"hello\"' )}
+${xx:replace( '\'', '"')}
+${     'non-existing':notNull():not():and(     ${filename1:startsWith('y')     :or(       ${ filename1:startsWith('x'):and(false) }     ):or(       ${ filename2:endsWith('xxxx'):or( ${'filename 3':length():gt(1)} ) }     )}     )}
+EXPRESSION
+  ATTRIBUTE_REFERENCE
+    MULTI_ATTRIBUTE_REFERENCE
+      allMatchingAttributes
+      (abc|xyz)
+  FUNCTION_CALL
+    matches
+    \\d+
+
+EXPRESSION
+  ATTRIBUTE_REFERENCE
+    ATTR_NAME
+      x
+  FUNCTION_CALL
+    equals
+    EXPRESSION
+      ATTRIBUTE_REFERENCE
+        ATTR_NAME
+          y
+

@@ -1,0 +1,8 @@
+org\apache\nifi\io\nio\example\TCPClient$1.class
+org\apache\nifi\io\nio\example\ServerMain$ConsumerRunner.class
+org\apache\nifi\io\nio\example\UDPClient.class
+org\apache\nifi\io\nio\example\UselessStreamConsumer.class
+org\apache\nifi\io\nio\example\ServerMain$ExampleStreamConsumerFactory.class
+org\apache\nifi\io\nio\example\ServerMain.class
+org\apache\nifi\io\nio\example\TCPClient$2.class
+org\apache\nifi\io\nio\example\TCPClient.class

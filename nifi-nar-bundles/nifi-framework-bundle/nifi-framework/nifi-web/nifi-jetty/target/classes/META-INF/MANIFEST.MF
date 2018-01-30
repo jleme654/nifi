@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Implementation-Title: nifi-jetty
+Implementation-Version: 1.6.0-SNAPSHOT
+Built-By: julio
+Specification-Vendor: Apache NiFi Project
+Specification-Title: nifi-jetty
+Implementation-Vendor-Id: org.apache.nifi
+Build-Jdk: 1.8.0_144
+Specification-Version: 1.6
+Implementation-URL: http://nifi.apache.org/nifi-nar-bundles/nifi-frame
+ work-bundle/nifi-framework/nifi-web/nifi-jetty
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Apache NiFi Project
+

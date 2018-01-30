@@ -1,0 +1,383 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/C:/Users/julio/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/C:/Users/julio/.m2/repository/org/slf4j/slf4j-simple/1.7.25/slf4j-simple-1.7.25.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+3619 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Serialized bytes (28): 54686973206973206120706c61696e74657874206d6573736167652e
+3648 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Created AES Provenance Event Encryptor with Key Provider: {getKey=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_setUpOnce_closure2@7ce85af2, keyExists=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_setUpOnce_closure3@316acbb5}
+3648 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Using record ID R1 and key ID K1
+3701 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Checking existence of K1
+3946 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encrypting provenance record R1 with key ID K1
+3949 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+3979 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Getting cipher for org.apache.nifi.security.util.EncryptionMethod@228bda54[Algorithm name=AES/GCM/NoPadding,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=true,Keyed cipher=true] with IV 6bc4bc258c1d265438ffeff98ca462f0 encrypt true
+5498 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encrypted provenance event record R1 with key ID K1
+5499 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Encrypted data to: 
+	01aced00057372002d6f72672e6170616368652e6e6966692e70726f76656e616e63652e456e6372797074696f6e4d65746164617461f1cd9bc1c9611fed020005490010636970686572427974654c656e6774684c0009616c676f726974686d7400124c6a6176612f6c616e672f537472696e673b5b0007697642797465737400025b424c00056b6579496471007e00014c000776657273696f6e71007e000178700000002c7400114145532f47434d2f4e6f50616464696e67757200025b42acf317f8060854e00200007870000000106bc4bc258c1d265438ffeff98ca462f07400024b3174000276313b6f1d07c65d64e4dc4fa7846601f4a6d61296591f4b33471c7e2f766ecf958b959713a403ae3df148c2f3df
+5578 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Checking existence of K1
+5579 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R1 with key ID K1
+5588 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+5593 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Getting cipher for EncryptionMethod[Algorithm name=AES/GCM/NoPadding,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=true,Keyed cipher=true] with IV 6bc4bc258c1d265438ffeff98ca462f0 encrypt false
+5595 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypted provenance event record R1 with key ID K1
+5595 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Decrypted data to: 
+	54686973206973206120706c61696e74657874206d6573736167652e
+5607 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Decoded (usually would be serialized schema record): This is a plaintext message.
+5627 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Serialized bytes (28): 54686973206973206120706c61696e74657874206d6573736167652e
+5634 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Created AES Provenance Event Encryptor with Key Provider: {getKey=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnMissingKeyId_closure5@756c67cd, keyExists=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnMissingKeyId_closure6@50de907a}
+5635 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Using record ID R1 and key ID K1
+5664 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [EXPECTED] EncryptionException The requested key ID is not available
+5683 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Serialized bytes (28): 54686973206973206120706c61696e74657874206d6573736167652e
+5690 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Created AES Provenance Event Encryptor with Key Provider: {getKey=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure8@110620d, keyExists=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure9@4f402027}
+5690 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Using record ID R1 and key ID K1
+5717 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+5764 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Created good encryption metadata: AES Provenance Record Encryption Metadata Key ID: K1 Algorithm: AES/GCM/NoPadding IV: e92731587c2967e33f87e0f8adb64681 Version: v1 Cipher text length: 44
+5922 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R1 with key ID K1
+5924 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Getting cipher for EncryptionMethod[Algorithm name=AES/GCM/NoPadding,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=true,Keyed cipher=true] with IV e92731587c2967e33f87e0f8adb64681 encrypt false
+5927 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypted provenance event record R1 with key ID K1
+5928 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Recovered good bytes: 54686973206973206120706c61696e74657874206d6573736167652e
+5941 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [EXPECTED] EncryptionException The requested key ID 1K is not available
+5960 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R3 with key ID K1
+5967 [main] ERROR org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encountered an exception initializing the cipher
+java.lang.IllegalArgumentException: Missing critical information
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.initCipher(AESProvenanceEventEncryptor.java:139)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.decrypt(AESProvenanceEventEncryptor.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap.invoke(PojoMetaMethodSite.java:213)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy:296)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:408)
+	at groovy.test.GroovyAssert.shouldFail(GroovyAssert.java:119)
+	at groovy.test.GroovyAssert$shouldFail.callStatic(Unknown Source)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10.doCall(AESProvenanceEventEncryptorTest.groovy:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1956)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1936)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1986)
+	at org.codehaus.groovy.runtime.dgm$175.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest.testShouldFailOnBadMetadata(AESProvenanceEventEncryptorTest.groovy:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+5970 [main] ERROR org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encountered an exception decrypting provenance record R3
+org.apache.nifi.provenance.EncryptionException: java.lang.IllegalArgumentException: Missing critical information
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.initCipher(AESProvenanceEventEncryptor.java:144)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.decrypt(AESProvenanceEventEncryptor.java:183)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap.invoke(PojoMetaMethodSite.java:213)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy:296)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:408)
+	at groovy.test.GroovyAssert.shouldFail(GroovyAssert.java:119)
+	at groovy.test.GroovyAssert$shouldFail.callStatic(Unknown Source)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10.doCall(AESProvenanceEventEncryptorTest.groovy:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1956)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1936)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1986)
+	at org.codehaus.groovy.runtime.dgm$175.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest.testShouldFailOnBadMetadata(AESProvenanceEventEncryptorTest.groovy:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.IllegalArgumentException: Missing critical information
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.initCipher(AESProvenanceEventEncryptor.java:139)
+	... 70 common frames omitted
+5973 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [EXPECTED] EncryptionException Encountered an exception decrypting provenance record R3
+5975 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R4 with key ID K1
+5976 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Getting cipher for EncryptionMethod[Algorithm name=AES/GCM/NoPadding,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=true,Keyed cipher=true] with IV 00000000000000000000000000000000 encrypt false
+5979 [main] ERROR org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encountered an exception decrypting provenance record R4
+javax.crypto.AEADBadTagException: mac check in GCM failed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher$AEADGenericBlockCipher.doFinal(Unknown Source)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher.engineDoFinal(Unknown Source)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2165)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.decrypt(AESProvenanceEventEncryptor.java:189)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap.invoke(PojoMetaMethodSite.java:213)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy:296)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:408)
+	at groovy.test.GroovyAssert.shouldFail(GroovyAssert.java:119)
+	at groovy.test.GroovyAssert$shouldFail.callStatic(Unknown Source)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10.doCall(AESProvenanceEventEncryptorTest.groovy:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1956)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1936)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1986)
+	at org.codehaus.groovy.runtime.dgm$175.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest.testShouldFailOnBadMetadata(AESProvenanceEventEncryptorTest.groovy:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+5985 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [EXPECTED] EncryptionException Encountered an exception decrypting provenance record R4
+5990 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [EXPECTED] EncryptionException The event was encrypted with version 1v which is not in the list of supported versions v1
+5992 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R6 with key ID K1
+5994 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Getting cipher for EncryptionMethod[Algorithm name=AES/GCM/NoPadding,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=true,Keyed cipher=true] with IV e92731587c2967e33f87e0f8adb64681 encrypt false
+5996 [main] ERROR org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encountered an exception decrypting provenance record R6
+javax.crypto.AEADBadTagException: mac check in GCM failed
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher$AEADGenericBlockCipher.doFinal(Unknown Source)
+	at org.bouncycastle.jcajce.provider.symmetric.util.BaseBlockCipher.engineDoFinal(Unknown Source)
+	at javax.crypto.Cipher.doFinal(Cipher.java:2165)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptor.decrypt(AESProvenanceEventEncryptor.java:189)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoCachedMethodSiteNoUnwrap.invoke(PojoMetaMethodSite.java:213)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:133)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy:296)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10$_closure11.doCall(AESProvenanceEventEncryptorTest.groovy)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at groovy.lang.Closure.call(Closure.java:408)
+	at groovy.test.GroovyAssert.shouldFail(GroovyAssert.java:119)
+	at groovy.test.GroovyAssert$shouldFail.callStatic(Unknown Source)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_testShouldFailOnBadMetadata_closure10.doCall(AESProvenanceEventEncryptorTest.groovy:295)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.metaclass.ClosureMetaClass.invokeMethod(ClosureMetaClass.java:294)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+	at groovy.lang.Closure.call(Closure.java:414)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1956)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1936)
+	at org.codehaus.groovy.runtime.DefaultGroovyMethods.eachWithIndex(DefaultGroovyMethods.java:1986)
+	at org.codehaus.groovy.runtime.dgm$175.invoke(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite$PojoMetaMethodSiteNoUnwrapNoCoerce.invoke(PojoMetaMethodSite.java:274)
+	at org.codehaus.groovy.runtime.callsite.PojoMetaMethodSite.call(PojoMetaMethodSite.java:56)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.apache.nifi.provenance.AESProvenanceEventEncryptorTest.testShouldFailOnBadMetadata(AESProvenanceEventEncryptorTest.groovy:292)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+6004 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [EXPECTED] EncryptionException Encountered an exception decrypting provenance record R6
+6010 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Created AES Provenance Event Encryptor with Key Provider: {getKey=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_setUpOnce_closure2@7ce85af2, keyExists=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_setUpOnce_closure3@316acbb5}
+6012 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Serialized bytes (28): 54686973206973206120706c61696e74657874206d6573736167652e
+6014 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Created AES Provenance Event Encryptor with Key Provider: {getKey=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_setUpOnce_closure2@7ce85af2, keyExists=org.apache.nifi.provenance.AESProvenanceEventEncryptorTest$_setUpOnce_closure3@316acbb5}
+6015 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Using record ID R1 and key ID K1
+6015 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Checking existence of K1
+6016 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encrypting provenance record R1 with key ID K1
+6019 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+6021 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encrypted provenance event record R1 with key ID K1
+6022 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Encrypted data to: 
+	01aced00057372002d6f72672e6170616368652e6e6966692e70726f76656e616e63652e456e6372797074696f6e4d65746164617461f1cd9bc1c9611fed020005490010636970686572427974654c656e6774684c0009616c676f726974686d7400124c6a6176612f6c616e672f537472696e673b5b0007697642797465737400025b424c00056b6579496471007e00014c000776657273696f6e71007e000178700000002c7400114145532f47434d2f4e6f50616464696e67757200025b42acf317f8060854e00200007870000000105ca2182f603c1cfbca25a1be55aded067400024b317400027631be133342a680b568f5813817a1db40c78cbcfd072aef51cc0f546bc16e56c3f7d677dafbff4ab867f819de0e
+6025 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Record R1 IV: 5ca2182f603c1cfbca25a1be55aded06
+6026 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Checking existence of K1
+6026 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R1 with key ID K1
+6028 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+6029 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypted provenance event record R1 with key ID K1
+6031 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Decrypted data to: 
+	54686973206973206120706c61696e74657874206d6573736167652e
+6033 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Checking existence of K1
+6034 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encrypting provenance record R2 with key ID K1
+6036 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+6038 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Encrypted provenance event record R2 with key ID K1
+6039 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Encrypted data to: 
+	01aced00057372002d6f72672e6170616368652e6e6966692e70726f76656e616e63652e456e6372797074696f6e4d65746164617461f1cd9bc1c9611fed020005490010636970686572427974654c656e6774684c0009616c676f726974686d7400124c6a6176612f6c616e672f537472696e673b5b0007697642797465737400025b424c00056b6579496471007e00014c000776657273696f6e71007e000178700000002c7400114145532f47434d2f4e6f50616464696e67757200025b42acf317f8060854e00200007870000000101343e7ae7268beab490e6638d0b7b2877400024b317400027631259ca1de9b987332fc9cffb7e66c4969aa1721d381b1e3629909a7ab9c786cb554e0387521bdd24934dcb8a1
+6041 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Record R2 IV: 1343e7ae7268beab490e6638d0b7b287
+6044 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Checking existence of K1
+6044 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypting provenance record R2 with key ID K1
+6045 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - [MOCK] Requesting key ID: K1
+6049 [main] DEBUG org.apache.nifi.provenance.AESProvenanceEventEncryptor - Decrypted provenance event record R2 with key ID K1
+6050 [main] INFO  org.apache.nifi.provenance.AESProvenanceEventEncryptorTest - Decrypted data to: 
+	54686973206973206120706c61696e74657874206d6573736167652e

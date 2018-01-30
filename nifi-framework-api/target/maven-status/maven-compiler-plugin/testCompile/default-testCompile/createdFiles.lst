@@ -1,0 +1,10 @@
+org\apache\nifi\authorization\MockPolicyBasedAuthorizer.class
+org\apache\nifi\bundle\BundleCoordinateTest.class
+org\apache\nifi\authorization\TestUser.class
+org\apache\nifi\authorization\TestAbstractPolicyBasedAuthorizer$1.class
+org\apache\nifi\authorization\TestAccessPolicy.class
+org\apache\nifi\web\TestRevision.class
+org\apache\nifi\authorization\TestGroup.class
+org\apache\nifi\authorization\MockPolicyBasedAuthorizer$1.class
+org\apache\nifi\authorization\TestAbstractPolicyBasedAuthorizer.class
+org\apache\nifi\bundle\BundleDetailsTest.class

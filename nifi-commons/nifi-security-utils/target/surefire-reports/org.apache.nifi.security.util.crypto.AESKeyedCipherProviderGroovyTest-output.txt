@@ -1,0 +1,131 @@
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: de0c65f9948ada92169f17dc7ec26575
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: 27499941be6eb7379f80d9daac7be41b94251869af1f10bc62215328e032a995 32
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 4ea2f6fd1a14039e62edc4f5d128e5bd
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: 3f6176acd8f33dd3105cea9b68a5d2f803f36f04ab0bad2d79ebba6f 28
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 4c16c76035c6faf141eb4db6d97964f3
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: 4040fdb40ccd7ca3a0786296904a279ad791eaa8eb4a13384a8912ba42d33c2198c785179da1cdfabc582a00 44
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: a2725ea55c7dd717664d044cab0f0b5f763653e322c27df21954f5be394efb1b 32
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 137905bd5778356623a694a2fa0027ed
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: bb8079601503c8f9048f46acde794b0de75be0bb103b20490d7c040ccfede154 32
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 751816cae9f8629f7d925c1007b98e5c
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: 26f25f25a3af1e7870754efeb87d525c6e6a46540b2fb0ff5363ebe8 28
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 16989795edf118c7e661f2652b547965
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: b245b88e894948fc24ffeaa2fdfdb350f794bdebdb9f690e75779b350cb002cb91fa2dd2d18c2dda98a53677 44
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 00000000000000000000000000000000 16
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV after encrypt: 4ecc004f982dea6302bdbb19cec176d4
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for decryption
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV:  0
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 00 1
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 1 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 1 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 0000 2
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 2 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 2 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 000000 3
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 3 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 3 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 00000000 4
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 4 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 4 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 0000000000 5
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 5 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 5 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 000000000000 6
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 6 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 6 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 00000000000000 7
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 7 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 7 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 0000000000000000 8
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 8 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 8 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 000000000000000000 9
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 9 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 9 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 00000000000000000000 10
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 10 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 10 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 0000000000000000000000 11
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 11 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 11 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 000000000000000000000000 12
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 12 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 12 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 00000000000000000000000000 13
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 13 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 13 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 0000000000000000000000000000 14
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 14 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 14 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 000000000000000000000000000000 15
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 15 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 15 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 29d8c385517cfe3e7920073c7ce2a47f
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: f561c9d25674ac63a5b0fefa7f3bc7a20e5fb20faf95d0b6f8272f022eb8a7d7 32
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 5e808c7053f6801494026a4706204c5d
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: 2942993373594bd0d44cdda86bcc36003d8a3763f35dd41602005bca 28
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - IV: 3c49606a9f3e591f4d2681fcfa6f603c
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Cipher text: ecc257c1d81e6db7fad46da29de478a9ba78e168cbcfc7c49b27590d5f6326ddd4734d18fc8f4ff031e4c880 44
+[main] INFO org.apache.nifi.security.util.crypto.AESKeyedCipherProviderGroovyTest - Recovered: This is a plaintext message.

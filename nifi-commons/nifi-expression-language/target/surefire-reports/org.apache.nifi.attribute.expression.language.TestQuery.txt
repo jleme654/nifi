@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.nifi.attribute.expression.language.TestQuery
+-------------------------------------------------------------------------------
+Tests run: 99, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 6.131 sec - in org.apache.nifi.attribute.expression.language.TestQuery

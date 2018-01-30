@@ -1,0 +1,58 @@
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@3a4afd8d finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 20 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@3a4afd8d checkpointed with 0 Records and 0 Swap Files in 200 milliseconds (Stop-the-world time = 49 milliseconds, Clear Edit Logs time = 50 millis), max Transaction ID -1
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@3a4afd8d checkpointed with 100000 Records and 0 Swap Files in 697 milliseconds (Stop-the-world time = 227 milliseconds, Clear Edit Logs time = 57 millis), max Transaction ID 99999
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@21f36116 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 387 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@21f36116 checkpointed with 0 Records and 0 Swap Files in 3090 milliseconds (Stop-the-world time = 1337 milliseconds, Clear Edit Logs time = 1671 millis), max Transaction ID -1
+[main] WARN org.wali.MinimalLockingWriteAheadLog - Constructing MinimalLockingWriteAheadLog with partitionCount=6, but the repository currently has 256 partitions; ignoring argument and proceeding with 256 partitions
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@44a03f34 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 1 records in 665 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@44a03f34 checkpointed with 1 Records and 0 Swap Files in 3764 milliseconds (Stop-the-world time = 1508 milliseconds, Clear Edit Logs time = 2063 millis), max Transaction ID 8
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@1c411579 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 10 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@1c411579 checkpointed with 0 Records and 0 Swap Files in 203 milliseconds (Stop-the-world time = 40 milliseconds, Clear Edit Logs time = 45 millis), max Transaction ID -1
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 100
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 101
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 102
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 103
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 104
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 105
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 106
+[main] INFO org.wali.TestMinimalLockingWriteAheadLog - Received OOME on record 107
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@71fee35c finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 10 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@71fee35c checkpointed with 0 Records and 0 Swap Files in 121 milliseconds (Stop-the-world time = 35 milliseconds, Clear Edit Logs time = 38 millis), max Transaction ID -1
+Took 3247 millis to insert 1,000,000 records each in its own transaction
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@9c38872 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 100000 records in 977 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@9c38872 checkpointed with 100000 Records and 0 Swap Files in 628 milliseconds (Stop-the-world time = 129 milliseconds, Clear Edit Logs time = 91 millis), max Transaction ID 99999
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@36b81ff2 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 7 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@36b81ff2 checkpointed with 0 Records and 0 Swap Files in 170 milliseconds (Stop-the-world time = 20 milliseconds, Clear Edit Logs time = 65 millis), max Transaction ID -1
+[main] ERROR org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2ba51c76 unexpectedly reached End-of-File when reading from Partition-2 for Transaction ID 0; assuming crash and ignoring this transaction
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2ba51c76 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 1 records in 13 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2ba51c76 checkpointed with 1 Records and 0 Swap Files in 124 milliseconds (Stop-the-world time = 27 milliseconds, Clear Edit Logs time = 33 millis), max Transaction ID 1
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2b14f37e finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 5 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2b14f37e checkpointed with 0 Records and 0 Swap Files in 92 milliseconds (Stop-the-world time = 24 milliseconds, Clear Edit Logs time = 20 millis), max Transaction ID -1
+[main] WARN org.wali.MinimalLockingWriteAheadLog - Failed to recover data from Write-Ahead Log for target\testTruncatedPartitionHeader\partition-0\2.journal because the header information could not be read properly. This often is the result of the file not being fully written out before the application is restarted. This file will be ignored.
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@5d253e61 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 1 records in 10 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@5d253e61 checkpointed with 1 Records and 0 Swap Files in 113 milliseconds (Stop-the-world time = 28 milliseconds, Clear Edit Logs time = 27 millis), max Transaction ID 2
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@4fd6b9c4 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 7 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@4fd6b9c4 checkpointed with 0 Records and 0 Swap Files in 89 milliseconds (Stop-the-world time = 22 milliseconds, Clear Edit Logs time = 24 millis), max Transaction ID -1
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2360cc30 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 3 records in 11 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@2360cc30 checkpointed with 3 Records and 0 Swap Files in 139 milliseconds (Stop-the-world time = 25 milliseconds, Clear Edit Logs time = 48 millis), max Transaction ID 1
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@50e62c5d finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 1 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@50e62c5d checkpointed with 0 Records and 0 Swap Files in 143 milliseconds (Stop-the-world time = 15 milliseconds, Clear Edit Logs time = 5 millis), max Transaction ID -1
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@7c6ca5cb finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 0 records in 6 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@7c6ca5cb checkpointed with 0 Records and 0 Swap Files in 110 milliseconds (Stop-the-world time = 21 milliseconds, Clear Edit Logs time = 24 millis), max Transaction ID -1
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@743d9c19 finished recovering records. Performing Checkpoint to ensure proper state of Partitions before updates
+[main] INFO org.wali.MinimalLockingWriteAheadLog - Successfully recovered 3 records in 19 milliseconds
+[main] INFO org.wali.MinimalLockingWriteAheadLog - org.wali.MinimalLockingWriteAheadLog@743d9c19 checkpointed with 3 Records and 0 Swap Files in 194 milliseconds (Stop-the-world time = 33 milliseconds, Clear Edit Logs time = 54 millis), max Transaction ID 0

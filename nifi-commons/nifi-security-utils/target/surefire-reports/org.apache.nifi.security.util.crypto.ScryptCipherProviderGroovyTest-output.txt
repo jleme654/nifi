@@ -1,0 +1,172 @@
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 00000000000000000000000000000000
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 67f502d61179a9be6b6804744bc63cb4f842c6dc51ad2267e3857f9622d533db 32
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 00000000000000000000000000000000
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 82e80ae717f9ab9628219e119835d615ea3f2c3895558899399c0925 28
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An empty IV was provided of length 16 for encryption
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 00000000000000000000000000000000
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 7828b23754dff7105d939a3d49e2c22ec0aa587fd9145e4f7bf624822eae8c9ceb9ec641d093f981cfbc8dda 44
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for decryption but should be 16 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Cannot decrypt without a valid IV
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length -1
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: -1 is not a valid key length for AES
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 40
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: 40 is not a valid key length for AES
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 64
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: 64 is not a valid key length for AES
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 112
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: 112 is not a valid key length for AES
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 512
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: 512 is not a valid key length for AES
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Expected salt: f5b8056ea6e66edb8d013ac432aba24a
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [SANITY] Ruby cipher text: 604188bf8e9137bc1b24a0ab01973024bc5935e9ae5fedf617bdca028c63c261
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [SANITY] Using key: a8efbc0a709d3f89b6bb35b05fc8edf5
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [SANITY] Using IV:  76a00f00878b8c3db314ae67804c00a1
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [SANITY] Created cipher text: 604188bf8e9137bc1b24a0ab01973024bc5935e9ae5fedf617bdca028c63c261
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [SANITY] Decrypted generated cipher text successfully
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [SANITY] Decrypted external cipher text successfully
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Full Hash: 400$8$24$f5b8056ea6e66edb8d013ac432aba24a$a8efbc0a709d3f89b6bb35b05fc8edf5
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - N: Hex 400 -> 1024
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - r: Hex 8 -> 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - p: Hex 24 -> 36
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Salt: f5b8056ea6e66edb8d013ac432aba24a
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Hash: a8efbc0a709d3f89b6bb35b05fc8edf5
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Formed Java-style salt: $s0$a0824$9bgFbqbmbtuNATrEMquiSg
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Converted hash from hex a8efbc0a709d3f89b6bb35b05fc8edf5 to Base64 qO+8CnCdP4m2uzWwX8jt9Q
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - External cipher text: 604188bf8e9137bc1b24a0ab01973024bc5935e9ae5fedf617bdca028c63c261 32
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt bad_sal
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The raw salt must be between 8 and 32 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt $3a$11$
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The raw salt must be between 8 and 32 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt x
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The raw salt must be between 8 and 32 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt $2a$10$
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The raw salt must be between 8 and 32 bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt $400$1$1$abcdefghijklmnopqrstuvwxyz
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The raw salt must be between 8 and 32 bytes
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 608a45d2f4e5bc0b813434f7c04477b3
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: b987f7efdb8117536cfa99e690121269405a002b6c6e77eb8f95050be14d1181 32
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: d23648f95fcc8f4bcf21e270d9c80495
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 5da3c7c078068270497ba03c40be4076ce47588cfdf487b3d698c8ba 28
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 4a087dc21d5f38ae7a2b801879a55c62
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 9476032ce4dcb9cc4dca7d605eb49289c0f3640b55ef1571415f70410f184e5230f9083778f2cdff77945b07 44
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt $ab$00$acbdefghijklmnopqrstuv
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt $4$1$1$0123456789abcdef
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The salt appears to be of the modified mcrypt format. Use ScryptCipherProvider#translateSalt(mcryptSalt) to form a valid salt
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Checking salt $400$1$1$abcdefghijklmnopqrstuv
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding with key length 128
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 59e36f042eca390fdcc4b5abd3774db3c7bb72a22f50013311bc4ee6d1b9ac86 32
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt starts with $ but is not valid scrypt salt
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Salt is not modified mcrypt format
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Expected salt: $s0$20101$Lyh6c2I+4a5yKf/EeURbhg
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProvider - Treating as raw salt bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - An IV was provided of length 0 bytes for encryption but should be 16 bytes
+[main] WARN org.apache.nifi.security.util.crypto.AESKeyedCipherProvider - Generating new IV. The value can be obtained in the calling code by invoking 'cipher.getIV()';
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 40acb388059d4fcaa15d2f141aa0d160
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 6cd92c500cfaf10618768bd3468e046e734979333085937361a6af770c8660a7 32
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: The salt cannot be empty. To generate a salt, use ScryptCipherProvider#generateSalt()
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CBC/PKCS7Padding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 31ea2e03053112b62fe174ff9354a61fe700092c4a2c3eea28c18b6da5a02ec7 32
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/CTR/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 71a35713c0afc05607d4775dd442f9521dec119c5cc547e7dfeb3610 28
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using algorithm: AES/GCM/NoPadding
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - IV: 01010101010101010101010101010101
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Cipher text: 97fdb8f1e02a94800d4f9e6e8dd5381cf8410e6cd916445ac39be5f7222f3210a3bf63a4c6f1f886691a0dbd 44
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Recovered: This is a plaintext message.
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Using salt: $s0$a0824$9bgFbqbmbtuNATrEMquiSg
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 4 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 1 is below the recommended minimum 8
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided iteration count 8 is below the recommended minimum 16384
+[main] WARN org.apache.nifi.security.util.crypto.ScryptCipherProvider - The provided block size 2 is below the recommended minimum 8
+[main] INFO org.apache.nifi.security.util.crypto.ScryptCipherProviderGroovyTest - Salt: $s0$30202$MmSvkYxhYk1BQ+WnaalDSg

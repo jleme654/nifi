@@ -1,0 +1,95 @@
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5AND128BITAES-CBC-OPENSSL
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 79ff5ed87feb76e997b533f88fc284d7e6dba38c8bf119561bc96bdbac5087ff 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 5e01189beeccbcc7f480d280e85269bf1e471c6b281c6b017703b6176816899b 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 17dd2a1e878b85cfb3ecfb314f6a94661c86fe2966242462ba1b86e5960f4582 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: aae7af3dc2867d7294fa3191c8d884d5de0bc5ad6dd8feae6bd76c16016c01d0 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: c28cec96e24dc947abbc2ad78b60dcc9a3711955ffa84be005257f1ac898520b 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITAES-CBC-BC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC2-CBC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC2-CBC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC4
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC4
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA256AND128BITAES-CBC-BC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND2-KEYTRIPLEDES-CBC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND3-KEYTRIPLEDES-CBC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAANDTWOFISH-CBC
+[main] WARN org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5AND128BITAES-CBC-OPENSSL
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: b29275ae7f922502db83b1d1481274e4968562614236068154cb3f8a8535ef43 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: b9bc700db8054eb7f97e8a3c404a65869121ac77737c1ccb5f5018fea714da7d 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: dcc7ee2f237532ff2a67986f4b3ef64f972a116c238129fd8126c2456d859866 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 7a05376f169c5ffd8e56579ebf7bc598bce970014ce68fafcc89c515ce0b6cc0 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: a6d30dc6579e80a0ff12f4de3ceac0bc4e32d2a8e03baa97b35d99214bec362b 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 6a258dd1275e36d9c3e10627b71af608f181e532bc4102bf6d21d15caedd5fbf 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 3b9d626bbe868692168cec9ebb21cf4debe68c242186af33b75c7c9c98712d1c 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 6ff8c832f43c33be72f19532b91af785658acf1720ec0cdb8d982b2e02db4653 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: c0d3ec986ea971b7648c78ea32403e4ca78ac29ddc5161070570d3d6 28
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: b46045bb5b6d08420bdaeb313b7265caabee2e5e60b8b98acacbec8a 28
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA256AND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: a78bc97083ba1092abaa6a4878ab5fbc02b02553bb07802ad9a5dff5286e5069 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND2-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: e4f71b155923bd672670341d3cfa4162520509afb039a1008c5347bb687b7724 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND3-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 49e9083ed760d3bc1c8b2d6a21344a9125db22780c03f20290ca62ef6a710d56 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAANDTWOFISH-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: cb8c3d3f602ac6620daa108a3ad1cfd7411b0810a90b9965ffab775d240a98f5 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5AND128BITAES-CBC-OPENSSL
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 2753d4e3ff3f4ae68881d232f6c98671d7182076cc86049d3a200dbf34efb709 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: b5ac4cb997e4143b7f31566ea13716fc905059e4fea834424815056e01f521e5 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 3197e714d865768f8226db380a16d2e5a57428730eb5e67ccfd38559a15cbf31 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 6bc00b096b4c7abc440ecc9fb2233a85527ab71879edc218952e9168714dbde2 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 19485ca385cf6435ea474e5386478c0b1271d899c552995cbc5af9d53df94099 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 7e8f5f8c008954be8d8415ae6241984d0fa76412a4626a1b59e0b1c5b2639f99 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: c119864b848c5840fa980c6370dce2c88508e4bd5c727f30597401f21a47f166 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 2808d4c8fc5c8bfb40fac4a9b9eea72f080b89d1e0a05727f4e03bec873139d4 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 9dfd5efa7b781a4830440993717902a8a51a2633cb180f749bb509fe 28
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 855ddcae3268b6e449f1935aa621cd4068c095ef4e75af56e87cbd19 28
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHA256AND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: abea97d3634d056c862c0103518751a71bd8f171a2c5d7a27bae6fe0b15c6c2f 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND2-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 3775d12deaa8511d9d8d9fe74938e44a688ab15a3960727b065eee61fe653869 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND3-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: a6603417baebbdf4b8df1f37d15c696db863b6ac7563b213725f618e21731fd1 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: PBEWITHSHAANDTWOFISH-CBC
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 4ccb9f13bda2754ae07e1925a9b86645ff618ba46380562025837ac5d91d223e 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Cipher text: 47972607296f80b99816d2059bf899f48e8eb8dff37dac28370da3a605865894 32
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Decrypting with 'requested' key length: -1
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Decrypting with 'requested' key length: 40
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Decrypting with 'requested' key length: 64
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Decrypting with 'requested' key length: 128
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Decrypting with 'requested' key length: 192
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Decrypting with 'requested' key length: 256
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: null
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Checking salt 372e58d55f2007ad
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: org.apache.nifi.security.util.EncryptionMethod@5368e981[Algorithm name=PBEWITHMD5AND128BITAES-CBC-OPENSSL,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=false,Keyed cipher=false]
+[main] INFO org.apache.nifi.security.util.crypto.OpenSSLPKCS5CipherProviderGroovyTest - Using algorithm: EncryptionMethod[Algorithm name=PBEWITHMD5AND128BITAES-CBC-OPENSSL,Requires unlimited strength JCE policy=false,Algorithm Provider=BC,Compatible with strong KDFs=false,Keyed cipher=false]

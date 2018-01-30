@@ -1,0 +1,110 @@
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5AND128BITAES-CBC-OPENSSL
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt a603dacee6cb04506dc7faaae4e8977b (16)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: a2dd30437125700b5586f5474eeaa0ae7de404b1c9739747581c850dfd24d502 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt cc0dee5ab493d832 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 1579a366ad16b0973a8fa1f9e577f8711ada1f9a6b30bb945e1b3ec3670eb371 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 44983e59a8ba2c33 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 96ffc24399e6af05b9c466a43db66fb5e0554beb3367040ba65366f2eaab4196 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt b8f1c85e30549ae9 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 4cea4b8fbd27c108d95fa519f854c5c98a8f29001a9e942c67390b6a8e7d7c61 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt ad92b184aeac646e (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 2e4c22d5c0abb101e944a883fa872ec59228aaac49e8d042afb8cf2fe6b735a3 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 7646c0bcc2fc53792c80a6badd56f78a (16)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: e0fdc53786a033e82af54edbca18af6f100b6fba2e71b00b1fe05be7f9e1f6eb 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt e6d0073bdfc6b93d (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 0449e3ed801b3ba574d8cb45ab4b9084754ce48ef134f5cd0bf9a99ca41106cf 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 6470d12beb339e2d (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: c8223f3f4923381501f448fa25ec0d27f577e7318b34af027d262e713bb2223b 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 6a191d0007d6be46 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 67628a3b8b0cadf0efbde19f6f59d366f26cb4223ec93fcd0db64ad0 28
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 56137fd3e2881471 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 03fdfc6c7a96a7819455ef79d68f282301f234c43a7cdf5559b9bd7a 28
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA256AND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt a3c549f170f299727cbe4d1ed71ef906 (16)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: c92cb0e5f396f08a7a95df42cd9f97ecf56f282c6e377ebbcb57c81beebaad00 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND2-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt ac7f79c286de37ef (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 8646a2b4ebb7749111afda4f4dd81f00a10c131a218c43bbe53d8ce2c4e560e5 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND3-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt e41cb24ea197e4a7 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 0210fb04c39f985efd776324ba104f58a55854477c15603256c1e22fad6ca0d6 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAANDTWOFISH-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 1336fbc7e57d465ae7754af1ec518f1e (16)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 65d41d88e5f25c3851083bb68fe6b43f1a3f7c46eea1481cff4b7b94ea481182 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5AND128BITAES-CBC-OPENSSL
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: b29275ae7f922502db83b1d1481274e4968562614236068154cb3f8a8535ef43 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 9bfccd12e615fbd8fddb97079d871aa2da57947df6ae3f567598af5b0224037a 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 9438426d7406a7924c170f5f46899cbf9537fdf8da488dda856995c59b794294 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: f125b3e44d52f6de912a5751e83925c450ba2705158a95f6460939cf80f1afe7 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: f162ad673ec43f24b3272bc2d37757e1ef80167ce76e611c374194d6a2cc2adf 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 58914107a592186a2397643c13cce17fad69110343252c5f873eaf739128d9e8 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: d73a888b83d6c26c8be6cc9cba0162a37799cd3147299724a1c350da7d190924 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC2-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: b9da62e30531556f9c2fbcba2b78c3e17973253bb96ce9d358af723825287ecd 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: bd33da32fa5689232f115824753a01cecd4eafda8d4472e0180df20d 28
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC4
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 26b98ca6599319387ef636aef6f9b249f7fffc414a28264982d88faf 28
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA256AND128BITAES-CBC-BC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 7660f73f0a670e36864ea9a4740662e44fc0992be09a284de74cd41ccbce9b6a 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND2-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: ce6b9b5cc554409b7574a6f4e10b5b53cab1f436ba4d3b1af7299a4c5909069b 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND3-KEYTRIPLEDES-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: d3e41c3241ff7a0c238a7d73317a8a7b0ad1664855df1e722c5e6b89682c3cc4 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAANDTWOFISH-CBC
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 4ca0e3f6e62cbc0f1ea7f00c2659b524ba3c357b5ad03f23a400ff83b4a57453 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5AND128BITAES-CBC-OPENSSL
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt e98addd7afc09ffdb6dc307ba253aa71 (16)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: bac9af4b1c03e3846a66d1d107e72345e0b8d92a8d517b4d739411fd3b922ef8 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 512abf403f13db8c (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 737b319d4600218558472d116e538bdb25a4cd1304b1f5e571a2965eafca9ff4 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHMD5ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 1bc62cb8d3a6d6a7 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: cf7fc033ee0c803136f1c53b8ee5c344c84e716f8defa6466e12e34a8e081dcc 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDRC2
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 123f88122c378163 (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: edc1decb00709cc80c1e3837ef9df327b6d25186eca586afc122ed2c15815753 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA1ANDDES
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Generated salt 1b131f0378b1409b (8)
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: e98f232e8428373f72e126701c01e31d661a5030bac0a7a7b2e47ede444b5943 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITAES-CBC-BC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC2-CBC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC2-CBC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND40BITRC4
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND128BITRC4
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHA256AND128BITAES-CBC-BC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND2-KEYTRIPLEDES-CBC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAAND3-KEYTRIPLEDES-CBC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Using algorithm: PBEWITHSHAANDTWOFISH-CBC
+[main] WARN org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - This test is skipped because the password length exceeds the undocumented limit BouncyCastle imposes on a JVM with limited strength crypto policies
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Cipher text: 4b47f5f25c4f90db7b609e2d3afa0b6fcee3eb0aa7719ef71c295f9cf54d5033 32
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Decrypting with 'requested' key length: -1
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Decrypting with 'requested' key length: 40
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Decrypting with 'requested' key length: 64
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Decrypting with 'requested' key length: 128
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Decrypting with 'requested' key length: 192
+[main] INFO org.apache.nifi.security.util.crypto.NiFiLegacyCipherProviderGroovyTest - Decrypting with 'requested' key length: 256

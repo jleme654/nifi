@@ -1,0 +1,69 @@
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Expected concatenated bytes: 54686573652061726520736f6d6520627974657354686573652061726520736f6d65206f74686572206279746573
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest -   Actual concatenated bytes: 54686573652061726520736f6d6520627974657354686573652061726520736f6d65206f74686572206279746573
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.provenance.StaticKeyProvider with location null and keyId K1 / 0123456789ABCDEFFEDCBA9876543210 is valid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Created (no actual file) temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit8969954353329823170\filebased_missing.kp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.FileBasedKeyProvider with location C:\Users\julio\AppData\Local\Temp\junit8969954353329823170\filebased_missing.kp and keyId K1 / null is invalid
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - The attempt to validate the key provider failed keyProviderImplementation = org.apache.nifi.provenance.ImaginaryKeyProvider , keyProviderLocation = null , keyId = K1 , encryptionKeys = 0
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.provenance.ImaginaryKeyProvider with location null and keyId K1 / null is invalid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - File contents: 
+key1=6BCUHorheXNc0KX+ZG/DIia+3HzvI4bwE/l2Mh//EVfcxVnd8A5SjtfH+P9SO9qQ
+key2=iC4hRa8aO5oi2yJhJi0DDM1yZclSIW0tYMedtHNXguhaUiXIyDu5vj/t+Wc24h+C
+keyX1==Yy0cr/tGnBPlOka4Z1+XuEStjOv+q0CCCdaMs95CtZvy2P64J36LtvDFixb2bwsl
+key3=MRsXyXVKMC40F7htY567YsMIf7Ai2TYfBBaWlkhqdxRQOPGc5k3butN0s91UKBya
+=3i18PZs1dYxdtySt+HRVq5WgTVFOzUS3EHCCO3VpCsCZ/dmdFpC2bbp6ky7LXz6C
+key4=lnQBz2xnF0EWxz10aDmMoJBykUWlrWc5iB7c5a97UjfL+uTIdHplcefyBjeHyWsF
+keyX3=non Base64-encoded data
+key5=QqtGnhXg5rGKyfZ+e+oncH5mORe2pBkPGkUTiEVrksSbMm7Z3WijF0RwRejCSAV1
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decoding Base64 for keyX1: Input byte array has wrong 4-byte ending unit
+[main] WARN org.apache.nifi.security.kms.StaticKeyProvider - Line 5 is not properly formatted -- keyId=Base64EncodedKey...
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decoding Base64 for keyX3: Illegal base64 character 20
+[main] INFO org.apache.nifi.security.kms.StaticKeyProvider - Read 5 keys from FileBasedKeyProvider C:\Users\julio\AppData\Local\Temp\junit8256659604571848019\keys.nkp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Read 5 keys from C:\Users\julio\AppData\Local\Temp\junit8256659604571848019\keys.nkp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.StaticKeyProvider with location null and keyId null / 0123456789ABCDEFFEDCBA9876543210 is invalid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Created temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit6947057895569365481\filebased.kp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.FileBasedKeyProvider with location C:\Users\julio\AppData\Local\Temp\junit6947057895569365481\filebased.kp and keyId K1 / null is valid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - File contents: 
+key1=ZdwukPNGUDxt4ytT3Wvce59SApn1DH5DIkX9qkXX2EsnFDmo2cdbdNss0Zej
+key2=2gJjuFCBgdRT+U5nycGFzu7dfeDZtptpynf32IIcmBbpCHTv+b7G+f3ofks9
+key3=PubzFyBSKtvnbn8bo+u90j8JEdw+aayffak93n24RmHIRU9fAFprZ3K+97gN
+key4=L55nPkLYwkFsza7hOkti9lbX4N8s4ogKUM7RHl0+/D9j4vzgE+7jZ3EDuQlx
+key5=fXOj0JwulgVHXRqj5n+OJJXfg8msPIVptqseZDeTY4qqPN6fPKfd2LnLwtXU
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decrypting key for key1: mac check in GCM failed
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decrypting key for key2: mac check in GCM failed
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decrypting key for key3: mac check in GCM failed
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decrypting key for key4: mac check in GCM failed
+[main] ERROR org.apache.nifi.security.kms.StaticKeyProvider - Encountered an error decrypting key for key5: mac check in GCM failed
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Created temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit6692900961793606770\missing_key_id.kp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.FileBasedKeyProvider with location C:\Users\julio\AppData\Local\Temp\junit6692900961793606770\missing_key_id.kp and keyId null / null is invalid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.StaticKeyProvider with location null and keyId K1 / 0123456789ABCDEFFEDCBA9876543210 is valid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - File contents: 
+key1=goXgL3clTgoeQHBSZaygweIS/zgBpprvZH/u+HukG0wCyFCEKc43hzkxUltdGBOp
+key2=eMMHsocc0dpzjDxZqd+LnWPcOhbsrWek/X+ryqXqbxA+9dzA4VZ5Xmd6kJoPrmPd
+key3=EhXEU3CGGXAPAFgNvny/vKJP5VJrzQpd66IiaK6+4Zl2ynsiBTJ/ZhSzSeQrS/iQ
+key3=2HMxmAbXzP4QC69riCDCLWH2PFko/aOyK6tt3HrNY3ozgglTtSCFaAPBEolAyOEh
+[main] WARN org.apache.nifi.security.kms.StaticKeyProvider - Multiple key values defined for key3 -- using most recent value
+[main] INFO org.apache.nifi.security.kms.StaticKeyProvider - Read 3 keys from FileBasedKeyProvider C:\Users\julio\AppData\Local\Temp\junit2443681583766506389\keys.nkp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Read 3 keys from C:\Users\julio\AppData\Local\Temp\junit2443681583766506389\keys.nkp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.StaticKeyProvider with location null and keyId K1 / 0123456789ABCDEFFEDCBA98765432 is invalid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789ABCDEFFEDCBA9876543210
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789abcdeffedcba9876543210
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789ABCDEFFEDCBA98765432
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789ABCDEFFEDCBA98765432100123456789ABCDEFFEDCBA9876543210
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789XBCDEFFEDCBA9876543210
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789ABCDEFFEDCBA98765432100123456789ABCDEF
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Validating 0123456789ABCDEFFEDCBA98765432100123456789ABCDEFFEDCBA9876543210
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - File contents: 
+key1=BUJivwxTNAQqGyyTBUxpwY6DDsqUpVa/WFyZPYLXiOLZlKFyxsE2i+JExADsqGS5
+key2=geggRtSfapMtx6+aAFNdw8Z47UDuscjczts2L79PgF5QcsRyBOBe0k6jFYHueHOi
+key3=P8WMd40D7f+PMIg5NiYRtz5DseD2B6LxsddXzvfXBt+6GUgKFl8rGVUl0NIbLOpv
+key4=Gg0QMDARHmU9m8UlAW6qIW1iPPunNJsi/GDq74WY7SG04WdXRxkyB3lMR77+i5BY
+key5=XgSNqgevRYgUsCV7d95SxJltiE8pvlBaO5w1xDDM5Il62F3AHXtKGuxDXv3RdQX9
+[main] INFO org.apache.nifi.security.kms.StaticKeyProvider - Read 5 keys from FileBasedKeyProvider C:\Users\julio\AppData\Local\Temp\junit5592103324419775100\keys.nkp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Read 5 keys from C:\Users\julio\AppData\Local\Temp\junit5592103324419775100\keys.nkp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.security.kms.StaticKeyProvider with location null and keyId K1 / null is invalid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Created temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit8242515649358176958\filebased.kp
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - Key Provider org.apache.nifi.provenance.FileBasedKeyProvider with location C:\Users\julio\AppData\Local\Temp\junit8242515649358176958\filebased.kp and keyId K1 / null is valid
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - File contents: 
+
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - [EXPECTED] Missing file: java.security.KeyManagementException: The provided file contained no valid keys
+[main] INFO org.apache.nifi.security.kms.CryptoUtilsTest - [EXPECTED] Empty file: java.security.KeyManagementException: The key provider file is not present and readable

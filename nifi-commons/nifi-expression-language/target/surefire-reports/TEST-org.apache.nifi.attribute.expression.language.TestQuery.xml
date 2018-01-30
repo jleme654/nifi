@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.nifi.attribute.expression.language.TestQuery" time="6.131" tests="99" errors="0" skipped="1" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\julio\eclipse-workspace_2\nifi"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\julio\eclipse-workspace_2\nifi"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\julio\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\julio\eclipse-workspace_2\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1104212850942233541.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_144/bin/../jre/lib/amd64;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\TXE Components\DAL\;C:\Program Files (x86)\Intel\TXE Components\DAL\;C:\Program Files\Intel\TXE Components\IPT\;C:\Program Files (x86)\Intel\TXE Components\IPT\;C:\Program Files\Git\cmd;%JAVA_HOME%\bin;C:\Users\julio\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Python27;;C:\Users\julio\eclipse\jee-oxygen\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\julio"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="julio"/>
+    <property name="java.class.path" value="C:\apache-maven-3.5.2\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="pt"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\apache-maven-3.5.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testRandomFunction" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testMathResultInterpretation" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.754"/>
+  <testcase name="testSingleLetterAttribute" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.002"/>
+  <testcase name="testReplaceAllWithMatchingGroup" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.033"/>
+  <testcase name="testWithTicksOutside" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testComplicatedEmbeddedExpressions" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.219"/>
+  <testcase name="testEmbeddedExpressionsAndQuotes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.004"/>
+  <testcase name="testReplaceAll" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.026"/>
+  <testcase name="testDeeplyEmbedded" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.057"/>
+  <testcase name="testDateFormatConversionWithTimeZone" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.051"/>
+  <testcase name="testToRadix" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.116"/>
+  <testcase name="testCallToFunctionWithSubjectResultOfAnotherFunctionCall" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.031"/>
+  <testcase name="testIsValidExpression" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.076"/>
+  <testcase name="testDoubleQuotesWithinSingleQuotes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.019"/>
+  <testcase name="testExtractExpressionTypes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testNewLinesAndTabsInQuery" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.027"/>
+  <testcase name="testAnd" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.095"/>
+  <testcase name="testNot" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.061"/>
+  <testcase name="testSimpleSubstring" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testEscapeQuotes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.003"/>
+  <testcase name="testSubjectAsEmbeddedExpressionWithSurroundChars" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.033"/>
+  <testcase name="testJsonPath" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="1.047"/>
+  <testcase name="testEvaluateWithinCurlyBraces" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testAttributesWithSpaces" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.038"/>
+  <testcase name="testCount" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.133"/>
+  <testcase name="testDate" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.017"/>
+  <testcase name="testFind" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.042"/>
+  <testcase name="testJoin" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.065"/>
+  <testcase name="testImplicitConversions" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.169"/>
+  <testcase name="testSubstringBefore" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.039"/>
+  <testcase name="testSubstringAfter" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.063"/>
+  <testcase name="testMathDecimalOperations" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.114"/>
+  <testcase name="testIsNullOrLengthEquals0" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.003"/>
+  <testcase name="testFunctionAfterReduce" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.146"/>
+  <testcase name="testQuotingQuotes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testIn" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.036"/>
+  <testcase name="testOr" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.016"/>
+  <testcase name="testAnyAttributeEmbedded" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.036"/>
+  <testcase name="testEqualsEmbedded" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.034"/>
+  <testcase name="testCannotCombineWithNonReducingFunction" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testMathLiteralOperations" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.004"/>
+  <testcase name="testAndOrNot" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.016"/>
+  <testcase name="testGetAttributeValue" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testReplaceNull" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.007"/>
+  <testcase name="testLiteral" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.052"/>
+  <testcase name="testEqualsNumber" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testBase64Decode" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.031"/>
+  <testcase name="testBase64Encode" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.029"/>
+  <testcase name="testEscapeFunctions" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.107"/>
+  <testcase name="testAllDelineatedValues" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.059"/>
+  <testcase name="testComments" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testToNumberFunctionReturnsNumberType" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testProblematic1" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testGetAttributeValueEmbedded" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testDateFormatConversion" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.006"/>
+  <testcase name="testAnyAttribute" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.007"/>
+  <testcase name="testAndOrLogicWithAnyAll" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.006"/>
+  <testcase name="testMatches" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.002"/>
+  <testcase name="testReplace" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.003"/>
+  <testcase name="testSubstringAfterLast" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.002"/>
+  <testcase name="testWithBackSlashes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.002"/>
+  <testcase name="testFromRadix" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.031"/>
+  <testcase name="testMathDecimalOperators" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.055"/>
+  <testcase name="testMathFunction" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.055"/>
+  <testcase name="testMathWholeNumberOperations" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testEmbeddedExpressionsAndQuotesWithProperties" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="implicitDateConversion" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0">
+    <skipped message="Requires specific locale"/>
+  </testcase>
+  <testcase name="testAnyMatchingAttribute" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.028"/>
+  <testcase name="testAnyDelineatedValue" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.015"/>
+  <testcase name="testSubstring" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.004"/>
+  <testcase name="testUnescapeFunctions" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.005"/>
+  <testcase name="testKeywords" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testAllMatchingAttributes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.009"/>
+  <testcase name="testAppendPrepend" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.035"/>
+  <testcase name="testDecimalParsing" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.257"/>
+  <testcase name="testEquals" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.002"/>
+  <testcase name="testEscape" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.844"/>
+  <testcase name="testGetStateValue" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.152"/>
+  <testcase name="testIfElse" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.052"/>
+  <testcase name="testIsNull" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testReplaceEmpty" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.033"/>
+  <testcase name="testIndexOf" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.014"/>
+  <testcase name="testCompilation" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.347"/>
+  <testcase name="testCurlyBracesInQuotes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.014"/>
+  <testcase name="testLiteralFunction" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testAttributeReferencesWithWhiteSpace" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testCompileEmbedded" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testIsEmpty" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.033"/>
+  <testcase name="testNotNull" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testDateToNumber" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.003"/>
+  <testcase name="testAllAttributes" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.008"/>
+  <testcase name="testExtractExpressionRanges" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+  <testcase name="testMathWholeNumberOperators" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testMathNumberDecimalConversion" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.001"/>
+  <testcase name="testAddOneDayToDate" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.012"/>
+  <testcase name="testReplaceAllWithOddNumberOfBackslashPairs" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.011"/>
+  <testcase name="testDateConversion" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.025"/>
+  <testcase name="testGetDelimitedField" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0.06"/>
+  <testcase name="testRandomFunctionReturnsNumberType" classname="org.apache.nifi.attribute.expression.language.TestQuery" time="0"/>
+</testsuite>

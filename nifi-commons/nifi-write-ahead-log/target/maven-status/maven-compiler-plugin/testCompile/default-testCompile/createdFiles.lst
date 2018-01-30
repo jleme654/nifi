@@ -1,0 +1,11 @@
+org\wali\DummyRecord.class
+org\wali\TestMinimalLockingWriteAheadLog$InsertThread.class
+org\wali\TestMinimalLockingWriteAheadLog$InlineCreationInsertThread.class
+org\wali\DummyRecordSerde.class
+org\wali\TestMinimalLockingWriteAheadLog$5.class
+org\wali\TestMinimalLockingWriteAheadLog$SimpleRecord.class
+org\wali\TestMinimalLockingWriteAheadLog$1.class
+org\wali\TestMinimalLockingWriteAheadLog$3.class
+org\wali\TestMinimalLockingWriteAheadLog$2.class
+org\wali\TestMinimalLockingWriteAheadLog$4.class
+org\wali\TestMinimalLockingWriteAheadLog.class

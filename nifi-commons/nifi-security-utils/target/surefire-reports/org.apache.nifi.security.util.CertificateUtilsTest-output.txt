@@ -1,0 +1,52 @@
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected certificate: org.bouncycastle.jcajce.provider.asymmetric.x509.X509CertificateObject C=US,ST=CA,O=Apache,OU=Security,CN=NiFi Test Server (6516657548873219178496)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Abstract certificate: org.bouncycastle.jcajce.provider.asymmetric.x509.X509CertificateObject (?)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Converted certificate: sun.security.x509.X509CertImpl CN=NiFi Test Server, OU=Security, O=Apache, ST=CA, C=US (6516657548873219178496)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 0 executed 13224 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 1 executed 13057 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 2 executed 12538 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 3 executed 16873 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 4 executed 14853 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 5 executed 11853 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 6 executed 11695 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - future 7 executed 12779 times
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Generated 106872 unique serial numbers
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected certificate: org.bouncycastle.jcajce.provider.asymmetric.x509.X509CertificateObject C=US,ST=CA,O=Apache,OU=Security,CN=NiFi Test Server (6516657574192051388416)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Legacy certificate: com.sun.security.cert.internal.x509.X509V1CertImpl CN=NiFi Test Server, OU=Security, O=Apache, ST=CA, C=US (6516657574192051388416)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Converted certificate: sun.security.x509.X509CertImpl CN=NiFi Test Server, OU=Security, O=Apache, ST=CA, C=US (6516657574192051388416)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected DN: CN=client.nifi.apache.org,OU=Security,O=Apache,ST=CA,C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected certificate chain: C=US,ST=CA,O=Apache,OU=Security,CN=client.nifi.apache.org issued by C=US,ST=CA,O=Apache,OU=Security,CN=NiFi Test CA
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted client DN: CN=client.nifi.apache.org, OU=Security, O=Apache, ST=CA, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected DN: CN=client.nifi.apache.org,OU=Security,O=Apache,ST=CA,C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected certificate chain: C=US,ST=CA,O=Apache,OU=Security,CN=client.nifi.apache.org issued by C=US,ST=CA,O=Apache,OU=Security,CN=NiFi Test CA
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted client DN: CN=client.nifi.apache.org, OU=Security, O=Apache, ST=CA, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Creating a certificate with subject: CN=localhost and SAN: [127.0.0.1, nifi.nifi.apache.org]
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Created GeneralNames object: [2: 127.0.0.1, 2: nifi.nifi.apache.org]
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Generated extensions object: [2.5.29.17]
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Issued certificate with subject: CN=localhost and SAN: [2, 127.0.0.1],[2, nifi.nifi.apache.org]
+[main] ERROR org.apache.nifi.security.util.CertificateUtils - The incoming request did not contain client certificates and thus the DN cannot be extracted. Check that the other endpoint is providing a complete client certificate chain
+[main] ERROR org.apache.nifi.security.util.CertificateUtils - The incoming request did not contain client certificates and thus the DN cannot be extracted. Check that the other endpoint is providing a complete client certificate chain
+[main] WARN org.apache.nifi.security.util.CertificateUtils - Suppressing missing client certificate exception because client auth is set to 'want'
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted client DN: null
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - DN 1 Ordered : CN=test1.nifi.apache.org, OU=Apache NiFi, O=Apache, ST=California, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - DN 1 Reversed: C=US, ST=California, O=Apache, OU=Apache NiFi, CN=test1.nifi.apache.org
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - DN 2 Ordered : CN=test2.nifi.apache.org, OU=Apache NiFi, O=Apache, ST=California, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - DN 2 Reversed: C=US, ST=California, O=Apache, OU=Apache NiFi, CN=test2.nifi.apache.org
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] DN 1, DN 1: true
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] DN 1, DN 1 (R): true
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] empty, empty: true
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] null, null: true
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] DN 1, DN 2: false
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] DN 1, DN 2 (R): false
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - [MATCHES] DN 1, empty: false
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected DN: CN=ncm.nifi.apache.org,OU=Security,O=Apache,ST=CA,C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Expected certificate chain: C=US,ST=CA,O=Apache,OU=Security,CN=ncm.nifi.apache.org issued by C=US,ST=CA,O=Apache,OU=Security,CN=NiFi Test CA
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Running test with socket ClientAuth setting: Client Auth: need (2)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted server DN: CN=ncm.nifi.apache.org, OU=Security, O=Apache, ST=CA, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Running test with socket ClientAuth setting: Client Auth: want (1)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted server DN: CN=ncm.nifi.apache.org, OU=Security, O=Apache, ST=CA, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Running test with socket ClientAuth setting: Client Auth: none (0)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted server DN: CN=ncm.nifi.apache.org, OU=Security, O=Apache, ST=CA, C=US
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Client auth (needSocket): Client Auth: need (2)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Client auth (wantSocket): Client Auth: want (1)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Client auth (noneSocket): Client Auth: none (0)
+[main] INFO org.apache.nifi.security.util.CertificateUtilsTest - Extracted client DN: null

@@ -1,0 +1,4 @@
+org\apache\nifi\attribute\expression\language\TestValueLookup.class
+org\apache\nifi\attribute\expression\language\TestValueLookup$1.class
+org\apache\nifi\attribute\expression\language\TestQuery.class
+org\apache\nifi\attribute\expression\language\TestStandardPreparedQuery.class

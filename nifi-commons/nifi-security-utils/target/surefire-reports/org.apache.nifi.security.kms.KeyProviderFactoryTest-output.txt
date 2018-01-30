@@ -1,0 +1,11 @@
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Original $PROPERTIES_FILE_PATH is null
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Temporarily setting to C:\Users\julio\eclipse-workspace_2\nifi\nifi-commons\nifi-security-utils\src\test\resources\128\conf\.
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Created temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit4476722066757621999\filebased.kp
+[main] INFO org.apache.nifi.security.kms.StaticKeyProvider - Read 1 keys from FileBasedKeyProvider C:\Users\julio\AppData\Local\Temp\junit4476722066757621999\filebased.kp
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Key Provider org.apache.nifi.provenance.FileBasedKeyProvider with location C:\Users\julio\AppData\Local\Temp\junit4476722066757621999\filebased.kp and keyId K1 / 0123456789ABCDEFFEDCBA9876543210 formed: org.apache.nifi.security.kms.FileBasedKeyProvider@14b5752f
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Created temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit5636284842198265721\filebased.kp
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Key Provider org.apache.nifi.provenance.StaticKeyProvider with location null and keyId K1 / 0123456789ABCDEFFEDCBA9876543210 formed: org.apache.nifi.security.kms.StaticKeyProvider@15ac02d5
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Key Provider org.apache.nifi.security.kms.StaticKeyProvider with location null and keyId K1 / 0123456789ABCDEFFEDCBA9876543210 formed: org.apache.nifi.security.kms.StaticKeyProvider@34f23816
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Created temporary file based key provider: C:\Users\julio\AppData\Local\Temp\junit2027972857675115875\filebased.kp
+[main] INFO org.apache.nifi.security.kms.StaticKeyProvider - Read 1 keys from FileBasedKeyProvider C:\Users\julio\AppData\Local\Temp\junit2027972857675115875\filebased.kp
+[main] INFO org.apache.nifi.security.kms.KeyProviderFactoryTest - Key Provider org.apache.nifi.security.kms.FileBasedKeyProvider with location C:\Users\julio\AppData\Local\Temp\junit2027972857675115875\filebased.kp and keyId K1 / 0123456789ABCDEFFEDCBA9876543210 formed: org.apache.nifi.security.kms.FileBasedKeyProvider@6736f40f

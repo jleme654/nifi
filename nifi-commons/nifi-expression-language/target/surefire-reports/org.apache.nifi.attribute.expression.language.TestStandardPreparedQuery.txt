@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.nifi.attribute.expression.language.TestStandardPreparedQuery
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 2, Time elapsed: 0.025 sec - in org.apache.nifi.attribute.expression.language.TestStandardPreparedQuery

@@ -1,0 +1,9 @@
+org\wali\MinimalLockingWriteAheadLog.class
+org\wali\WriteAheadRepository.class
+org\wali\MinimalLockingWriteAheadLog$Partition.class
+org\wali\MinimalLockingWriteAheadLog$Partition$1.class
+org\wali\UpdateType.class
+org\wali\SyncListener.class
+org\wali\SerDeFactory.class
+org\wali\SerDe.class
+org\wali\SingletonSerDeFactory.class

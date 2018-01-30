@@ -1,0 +1,3 @@
+org\apache\nifi\processor\TestDataUnit.class
+org\apache\nifi\registry\TestVariableRegistry.class
+org\apache\nifi\components\TestPropertyDescriptor.class

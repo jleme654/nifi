@@ -1,0 +1,64 @@
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using r: 0
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using r: 16384
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using N: -2
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using N: 0
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using N: 1
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using N: 3
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using N: 4095
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using N: 16777215
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using p: 0
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using p: 16777216
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using hash: 
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Hash cannot be empty
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using hash: null
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Hash cannot be empty
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using hash: $s0$a0801$
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Hash is not properly formatted
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using hash: $s0$a0801$abcdefghijklmnopqrstuv$
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Hash is not properly formatted
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Running with 'shortPassword', '0123456789ABCDEFFEDCBA9876543210', 16, 1, 1
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Hash: $s0$40101$ASNFZ4mrze/+3LqYdlQyEA$iYbQzaeBmgMbyQOnjpTvJg
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using password: 
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Password cannot be empty
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Using password: null
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - [EXPECTED] java.lang.IllegalArgumentException: Password cannot be empty
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Generated $s0$40101$PbEvA1blQpHvvuiau6ywrA$l+It/KZwzf13qFP6yDclGw
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Password: thisIsABadPassword -> Hash: $s0$40101$dlQ4cvYNnugxMuDNHSMzvg$1XQtRHHtwCdYDPkwY4z9Rw
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Check matches: false
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Running with 'thisIsABadPassword', f5b8056ea6e66edb8d013ac432aba24a, 1024, 8, 36, 128
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Expected memory usage: (128 * r * N + 128 * r * p) 1085440 bytes
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest -  Expected a8efbc0a709d3f89b6bb35b05fc8edf5
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Generated a8efbc0a709d3f89b6bb35b05fc8edf5
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Running with 'password', 'NaCl', 1024, 8, 16, 512
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Expected memory usage: (128 * r * N + 128 * r * p) 1064960 bytes
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest -  Expected fdbabe1c9d3472007856e7190d01e9fe7c6ad7cbc8237830e77376634b3731622eaf30d92e22a3886ff109279d9830dac727afb94a83ee6d8360cbdfa2cc0640
+[main] WARN org.apache.nifi.security.util.crypto.scrypt.Scrypt - A salt of length 4 was used for scrypt key derivation
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Generated fdbabe1c9d3472007856e7190d01e9fe7c6ad7cbc8237830e77376634b3731622eaf30d92e22a3886ff109279d9830dac727afb94a83ee6d8360cbdfa2cc0640
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Running with 'pleaseletmein', 'SodiumChloride', 16384, 8, 1, 512
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Expected memory usage: (128 * r * N + 128 * r * p) 16778240 bytes
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest -  Expected 7023bdcb3afd7348461c06cd81fd38ebfda8fbba904f8e3ea9b543f6545da1f2d5432955613f0fcf62d49705242a9af9e61e85dc0d651e40dfcf017b45575887
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Generated 7023bdcb3afd7348461c06cd81fd38ebfda8fbba904f8e3ea9b543f6545da1f2d5432955613f0fcf62d49705242a9af9e61e85dc0d651e40dfcf017b45575887
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Required memory: 2147483648 bytes
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Max heap memory: 317718528 bytes
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Running with 'shortPassword', '0123456789ABCDEFFEDCBA9876543210', 16, 1, 1, 128
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Derived key: 8986d0cda7819a031bc903a78e94ef26
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Password: thisIsABadPassword -> Hash: $s0$40101$n/lA8NPbW72KOqljXrXVhg$lesHpmgskdIUq+X/CRWySQ
+[main] INFO org.apache.nifi.security.util.scrypt.ScryptGroovyTest - Check matches: true

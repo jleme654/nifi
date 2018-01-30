@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings version="2.1" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.2.11 
+Consulte <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2018.01.30 às 01:20:06 AM BRST 
+
+  -->
+  <jaxb:bindings scd="x-schema::">
+    <jaxb:schemaBindings map="false">
+      <jaxb:package name="org.apache.nifi.authorization.generated"/>
+    </jaxb:schemaBindings>
+    <jaxb:bindings scd="authorizers">
+      <jaxb:class ref="org.apache.nifi.authorization.generated.Authorizers"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~UserGroupProvider">
+      <jaxb:class ref="org.apache.nifi.authorization.generated.UserGroupProvider"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~AccessPolicyProvider">
+      <jaxb:class ref="org.apache.nifi.authorization.generated.AccessPolicyProvider"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~Authorizer">
+      <jaxb:class ref="org.apache.nifi.authorization.generated.Authorizer"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~Property">
+      <jaxb:class ref="org.apache.nifi.authorization.generated.Property"/>
+    </jaxb:bindings>
+  </jaxb:bindings>
+</jaxb:bindings>
+

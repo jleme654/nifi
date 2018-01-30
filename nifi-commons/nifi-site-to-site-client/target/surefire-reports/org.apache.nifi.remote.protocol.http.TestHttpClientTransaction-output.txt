@@ -1,0 +1,50 @@
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Finished sending flow files.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Transaction is confirmed.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_CONFIRMED] Received Transaction Finished: null from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=null
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=null
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Confirming transaction. checksum=2969091230
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=2969091230
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_CONFIRMED] Sending TRANSACTION_FINISHED to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_CONFIRMED] Finishing transaction.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Finished sending flow files.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Transaction is confirmed.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_CONFIRMED] Received Transaction Finished: null from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Finished sending flow files.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] BAD_CHECKSUM, The transaction is canceled on server properly.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=null
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=null
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Confirming transaction. checksum=2969091230
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=2969091230
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_STARTED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=null
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] Indicates Transaction should continue
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Receiving data from Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Confirming transaction. checksum=3680976076
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=DATA_EXCHANGED] Peer[url=] readTransactionResponse. checksum=3680976076
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_CONFIRMED] Sending TRANSACTION_FINISHED to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=RECEIVE, State=TRANSACTION_CONFIRMED] Finishing transaction.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_STARTED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sending data to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Sent FINISH_TRANSACTION indicator to Peer[url=]
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Finished sending flow files.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=DATA_EXCHANGED] Transaction is confirmed.
+[main] DEBUG org.apache.nifi.remote.protocol.http.HttpClientTransaction - HttpClientTransaction[Url=, TransferDirection=SEND, State=TRANSACTION_CONFIRMED] Received Transaction Finished But Destination is Full: null from Peer[url=]

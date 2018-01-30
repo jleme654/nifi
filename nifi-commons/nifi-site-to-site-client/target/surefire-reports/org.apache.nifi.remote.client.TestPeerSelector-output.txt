@@ -1,0 +1,137 @@
+[main] INFO org.apache.nifi.remote.client.PeerSelector - Replacing systemTime instance to org.apache.nifi.remote.client.TestPeerSelector$UnitTestSystemTime@5c8eee0f.
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - Fetching remote peer statuses from: [PeerDescription[hostname=Node1, port=1111, secure=true]]
+[main] INFO org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 Successfully refreshed Peer Status; remote instance consists of 2 peers
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=Node2,port=2222,secure=true,flowFileCount=10] will receive 50.0% of data
+PeerStatus[hostname=Node1,port=1111,secure=true,flowFileCount=10] will receive 50.0% of data
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - Fetching remote peer statuses from: [PeerDescription[hostname=Node2, port=2222, secure=true], PeerDescription[hostname=Node1, port=1111, secure=true]]
+[main] INFO org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 Successfully refreshed Peer Status; remote instance consists of 1 peers
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=Node2,port=2222,secure=true,flowFileCount=1] will receive 100.0% of data
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - Fetching remote peer statuses from: [PeerDescription[hostname=Node2, port=2222, secure=true], PeerDescription[hostname=Node1, port=1111, secure=true]]
+[main] INFO org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 Successfully refreshed Peer Status; remote instance consists of 1 peers
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=Node2,port=2222,secure=true,flowFileCount=1] will receive 100.0% of data
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - Fetching remote peer statuses from: [PeerDescription[hostname=Node2, port=2222, secure=true], PeerDescription[hostname=Node1, port=1111, secure=true]]
+[main] WARN org.apache.nifi.remote.client.PeerSelector - Could not communicate with Node2:2222 to determine which nodes exist in the remote NiFi cluster, due to java.io.IOException: Connection refused. PeerDescription[hostname=Node2, port=2222, secure=true] is not running.
+[main] WARN org.apache.nifi.remote.client.PeerSelector - Could not communicate with Node1:1111 to determine which nodes exist in the remote NiFi cluster, due to java.io.IOException: Connection refused. PeerDescription[hostname=Node1, port=1111, secure=true] is not running.
+[main] WARN org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 Unable to refresh Remote Group's peers due to Unable to communicate with remote NiFi cluster in order to determine which nodes exist in the remote cluster
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - 
+java.io.IOException: Unable to communicate with remote NiFi cluster in order to determine which nodes exist in the remote cluster
+	at org.apache.nifi.remote.client.PeerSelector.fetchRemotePeerStatuses(PeerSelector.java:398)
+	at org.apache.nifi.remote.client.PeerSelector.refreshPeers(PeerSelector.java:352)
+	at org.apache.nifi.remote.client.TestPeerSelector.testFetchRemotePeerStatuses(TestPeerSelector.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+	Suppressed: java.io.IOException: Connection refused. PeerDescription[hostname=Node1, port=1111, secure=true] is not running.
+		at org.apache.nifi.remote.client.TestPeerSelector.lambda$testFetchRemotePeerStatuses$6(TestPeerSelector.java:212)
+		at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:34)
+		at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:91)
+		at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+		at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+		at org.mockito.internal.creation.cglib.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+		at org.apache.nifi.remote.client.PeerStatusProvider$$EnhancerByMockitoWithCGLIB$$97a48f2e.fetchRemotePeerStatuses(<generated>)
+		at org.apache.nifi.remote.client.PeerSelector.fetchRemotePeerStatuses(PeerSelector.java:385)
+		... 26 more
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - Fetching remote peer statuses from: [PeerDescription[hostname=Node2, port=2222, secure=true], PeerDescription[hostname=Node1, port=1111, secure=true]]
+[main] WARN org.apache.nifi.remote.client.PeerSelector - Could not communicate with Node2:2222 to determine which nodes exist in the remote NiFi cluster, due to java.io.IOException: Connection refused. PeerDescription[hostname=Node2, port=2222, secure=true] is not running.
+[main] WARN org.apache.nifi.remote.client.PeerSelector - Could not communicate with Node1:1111 to determine which nodes exist in the remote NiFi cluster, due to java.io.IOException: Connection refused. PeerDescription[hostname=Node1, port=1111, secure=true] is not running.
+[main] WARN org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 Unable to refresh Remote Group's peers due to Unable to communicate with remote NiFi cluster in order to determine which nodes exist in the remote cluster
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - 
+java.io.IOException: Unable to communicate with remote NiFi cluster in order to determine which nodes exist in the remote cluster
+	at org.apache.nifi.remote.client.PeerSelector.fetchRemotePeerStatuses(PeerSelector.java:398)
+	at org.apache.nifi.remote.client.PeerSelector.refreshPeers(PeerSelector.java:352)
+	at org.apache.nifi.remote.client.PeerSelector.createPeerStatusList(PeerSelector.java:316)
+	at org.apache.nifi.remote.client.PeerSelector.getNextPeerStatus(PeerSelector.java:275)
+	at org.apache.nifi.remote.client.TestPeerSelector.testFetchRemotePeerStatuses(TestPeerSelector.java:244)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+	Suppressed: java.io.IOException: Connection refused. PeerDescription[hostname=Node1, port=1111, secure=true] is not running.
+		at org.apache.nifi.remote.client.TestPeerSelector.lambda$testFetchRemotePeerStatuses$6(TestPeerSelector.java:212)
+		at org.mockito.internal.stubbing.StubbedInvocationMatcher.answer(StubbedInvocationMatcher.java:34)
+		at org.mockito.internal.handler.MockHandlerImpl.handle(MockHandlerImpl.java:91)
+		at org.mockito.internal.handler.NullResultGuardian.handle(NullResultGuardian.java:29)
+		at org.mockito.internal.handler.InvocationNotifierHandler.handle(InvocationNotifierHandler.java:38)
+		at org.mockito.internal.creation.cglib.MethodInterceptorFilter.intercept(MethodInterceptorFilter.java:59)
+		at org.apache.nifi.remote.client.PeerStatusProvider$$EnhancerByMockitoWithCGLIB$$97a48f2e.fetchRemotePeerStatuses(<generated>)
+		at org.apache.nifi.remote.client.PeerSelector.fetchRemotePeerStatuses(PeerSelector.java:385)
+		... 28 more
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 found no peers to connect to
+[main] DEBUG org.apache.nifi.remote.client.PeerSelector - Fetching remote peer statuses from: [PeerDescription[hostname=Node2, port=2222, secure=true], PeerDescription[hostname=Node1, port=1111, secure=true]]
+[main] WARN org.apache.nifi.remote.client.PeerSelector - Could not communicate with Node2:2222 to determine which nodes exist in the remote NiFi cluster, due to java.io.IOException: Connection refused. PeerDescription[hostname=Node2, port=2222, secure=true] is not running.
+[main] INFO org.apache.nifi.remote.client.PeerSelector - org.apache.nifi.remote.client.PeerSelector@7b324585 Successfully refreshed Peer Status; remote instance consists of 1 peers
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=Node1,port=1111,secure=true,flowFileCount=1] will receive 100.0% of data
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=Node2,port=2222,secure=true,flowFileCount=4096] will receive 20.0% of data
+PeerStatus[hostname=Node3,port=3333,secure=true,flowFileCount=4096] will receive 20.0% of data
+PeerStatus[hostname=Node4,port=4444,secure=true,flowFileCount=4096] will receive 20.0% of data
+PeerStatus[hostname=Node1,port=1111,secure=true,flowFileCount=4096] will receive 20.0% of data
+PeerStatus[hostname=Node5,port=5555,secure=true,flowFileCount=4096] will receive 20.0% of data
+[main] INFO org.apache.nifi.remote.client.TestPeerSelector - selectedCounts={Node1=25, Node5=25, Node4=25, Node3=25, Node2=25}
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=HasLittle,port=1111,secure=true,flowFileCount=500] will receive 0.970873786407767% of data
+PeerStatus[hostname=HasLots,port=2222,secure=true,flowFileCount=50000] will receive 99.02912621359224% of data
+[main] INFO org.apache.nifi.remote.client.TestPeerSelector - selectedCounts={HasLots=102, HasLittle=1}
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=HasLittle,port=2222,secure=true,flowFileCount=50000] will receive 99.02912621359224% of data
+PeerStatus[hostname=HasLots,port=1111,secure=true,flowFileCount=500] will receive 0.970873786407767% of data
+[main] INFO org.apache.nifi.remote.client.TestPeerSelector - selectedCounts={HasLots=1, HasLittle=102}
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=HasLittle,port=2222,secure=true,flowFileCount=10240] will receive 43.65079365079365% of data
+PeerStatus[hostname=HasMedium,port=5555,secure=true,flowFileCount=4096] will receive 17.46031746031746% of data
+PeerStatus[hostname=HasMedium,port=1111,secure=true,flowFileCount=4096] will receive 17.46031746031746% of data
+PeerStatus[hostname=HasMedium,port=4444,secure=true,flowFileCount=4096] will receive 17.46031746031746% of data
+PeerStatus[hostname=HasLots,port=3333,secure=true,flowFileCount=1024] will receive 3.9682539682539684% of data
+[main] INFO org.apache.nifi.remote.client.TestPeerSelector - selectedCounts={HasLots=5, HasLittle=55, HasMedium=22}
+[main] INFO org.apache.nifi.remote.client.PeerSelector - New Weighted Distribution of Nodes:
+PeerStatus[hostname=HasMedium,port=5555,secure=true,flowFileCount=4096] will receive 17.46031746031746% of data
+PeerStatus[hostname=HasMedium,port=1111,secure=true,flowFileCount=4096] will receive 17.46031746031746% of data
+PeerStatus[hostname=HasLittle,port=3333,secure=true,flowFileCount=1024] will receive 3.9682539682539684% of data
+PeerStatus[hostname=HasMedium,port=4444,secure=true,flowFileCount=4096] will receive 17.46031746031746% of data
+PeerStatus[hostname=HasLots,port=2222,secure=true,flowFileCount=10240] will receive 43.65079365079365% of data
+[main] INFO org.apache.nifi.remote.client.TestPeerSelector - selectedCounts={HasLots=55, HasLittle=5, HasMedium=22}

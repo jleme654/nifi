@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+nifi-runtime
+
+
+From: 'Apache NiFi Project' (http://nifi.apache.org/)
+  - nifi-framework-api (http://nifi.apache.org/nifi-framework-api) org.apache.nifi:nifi-framework-api:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-nar-utils (http://nifi.apache.org/nifi-nar-bundles/nifi-framework-bundle/nifi-framework/nifi-nar-utils) org.apache.nifi:nifi-nar-utils:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - nifi-properties (http://nifi.apache.org/nifi-commons/nifi-properties) org.apache.nifi:nifi-properties:jar:1.6.0-SNAPSHOT
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+
+
+
+

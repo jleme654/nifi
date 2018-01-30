@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: org.wali.TestMinimalLockingWriteAheadLog
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 0, Errors: 1, Skipped: 2, Time elapsed: 21.891 sec <<< FAILURE! - in org.wali.TestMinimalLockingWriteAheadLog
+testRecoverFileThatHasTrailingNULBytesAndTruncation(org.wali.TestMinimalLockingWriteAheadLog)  Time elapsed: 0.06 sec  <<< ERROR!
+java.nio.channels.OverlappingFileLockException
+	at org.wali.TestMinimalLockingWriteAheadLog.testRecoverFileThatHasTrailingNULBytesAndTruncation(TestMinimalLockingWriteAheadLog.java:472)
+

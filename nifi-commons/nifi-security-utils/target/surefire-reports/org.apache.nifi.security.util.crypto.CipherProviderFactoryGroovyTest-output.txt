@@ -1,0 +1,12 @@
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Expected: NiFi Legacy KDF -> NiFiLegacyCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Resolved: NiFi Legacy KDF -> NiFiLegacyCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Expected: OpenSSL EVP_BytesToKey -> OpenSSLPKCS5CipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Resolved: OpenSSL EVP_BytesToKey -> OpenSSLPKCS5CipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Expected: Bcrypt -> BcryptCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Resolved: Bcrypt -> BcryptCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Expected: Scrypt -> ScryptCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Resolved: Scrypt -> ScryptCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Expected: PBKDF2 -> PBKDF2CipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Resolved: PBKDF2 -> PBKDF2CipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Expected: None -> AESKeyedCipherProvider
+[main] INFO org.apache.nifi.security.util.crypto.CipherProviderFactoryGroovyTest - Resolved: None -> AESKeyedCipherProvider
